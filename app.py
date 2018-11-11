@@ -6,9 +6,9 @@ from random import choice
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from time import sleep
 
-MODIFIER_RANDOM = 40
+MODIFIER_RANDOM = 30
 MODIFIER_TRIGGER = 5
-MODIFIER_BOLD = 50
+MODIFIER_BOLD = 25
 
 
 def msg_delay():
