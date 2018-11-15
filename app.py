@@ -22,6 +22,13 @@ def cmd_help(bot, update):
                               quote=True)
 
 
+def cmd_pasta(bot, update):
+    update.message.reply_text(text='Скоро запилю, только штаны подтянуть надо',
+                              disable_notification=True,
+                              parse_mode='html',
+                              quote=True)
+
+
 def ridak_say_nahuy(bot, update):
     if choice([0, 1]) == 0:
         if choice(list(range(0, MODIFIER_RANDOM))) == 1:
@@ -61,6 +68,7 @@ if __name__ == "__main__":
     dp.add_handler(MessageHandler(Filters.text, ridak_say_nahuy))
     dp.add_handler(CommandHandler('start', cmd_help))
     dp.add_handler(CommandHandler('help', cmd_help))
+    dp.add_handler(CommandHandler('pasta', cmd_pasta))
 
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
