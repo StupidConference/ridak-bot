@@ -1,5 +1,7 @@
 help_msg = """
-Заглушка
+Первый <a href='https://t.me/addstickers/stupid_conference'>стикер-пак</a>.
+Второй <a href='https://t.me/addstickers/na_meste'>стикер-пак</a>.
+Репозиторий конференции на <a href='https://github.com/stupidconference'>Github</a>
 """
 
 random_list = ['Пошел нахуй.', 'Какая же ты гнида.', 'Ты просто уебок.', 'Ну ты и чмо.',

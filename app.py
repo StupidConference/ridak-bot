@@ -23,7 +23,7 @@ def cmd_help(bot, update):
 
 
 def cmd_pasta(bot, update):
-    update.message.reply_text(text='Скоро запилю, только штаны подтянуть надо',
+    update.message.reply_text(text='Сделай сам. Изменения в репозиториии этого бота на гитхабе автоматом посылаются в хероку.',
                               disable_notification=True,
                               parse_mode='html',
                               quote=True)
